@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "etscd"
+version = "0.1.0"
+description = "Evidence-Aware Three-Way Semantic Contrastive Decoding"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.23.5", "Pillow>=9"]
+
+[project.scripts]
+etscd-run = "etscd.runner:main"
+etscd-evaluate = "etscd.evaluation:main"
+etscd-chair = "etscd.chair_eval:main"
+etscd-prepare-weak-images = "etscd.weak_images:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"etscd.metrics" = ["README.md"]
+

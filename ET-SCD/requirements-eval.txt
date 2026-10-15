@@ -1,0 +1,6 @@
+# Optional CHAIR/BLEU environment; Java is also needed by PTBTokenizer.
+nltk>=3.8,<4
+tqdm>=4.65
+pycocotools>=2.0.7
+pycocoevalcap==1.2
+

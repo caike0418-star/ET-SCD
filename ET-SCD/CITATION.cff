@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this implementation, please cite the accompanying ET-SCD manuscript."
+title: "Evidence-Aware Three-Way Semantic Contrastive Decoding for Object Hallucination Mitigation"
+type: software
+version: 0.1.0
+authors:
+  - family-names: Cai
+    given-names: Ke
+  - family-names: Wang
+    given-names: Zheng
+  - family-names: Cao
+    given-names: Xi
+  - family-names: Liu
+    given-names: Junhua
+  - family-names: Xu
+    given-names: Xing
+  - family-names: Song
+    given-names: Jingkuan
+  - family-names: Shen
+    given-names: Heng Tao
+license: Apache-2.0
+
